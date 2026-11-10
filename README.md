@@ -257,7 +257,7 @@ This project is an analytical and illustrative pricing simulation, not a product
 
 ## Dashboard Link
 
-**Tableau Public:** [View the Interactive Dashboard](ADD_YOUR_TABLEAU_PUBLIC_LINK_HERE)
+**Tableau Public:** [View the Interactive Dashboard](https://public.tableau.com/app/profile/bushra.syeda/viz/Hotel_Pricing_Dashboard/Dashboard1)
 
 ## Dataset Source
 
