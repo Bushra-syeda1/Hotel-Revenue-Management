@@ -12,6 +12,11 @@ The project focuses on understanding hotel performance and exploring data-driven
 
 It combines historical booking analysis with a rule-based dynamic pricing simulation. An interactive Tableau dashboard brings the findings together and allows users to compare hotel performance and pricing scenarios.
 
+## Dashboard Preview
+
+![Hotel Revenue Dashboard](images/dashboard_preview.png)
+
+[View the Interactive Tableau Dashboard](https://public.tableau.com/app/profile/bushra.syeda/viz/Hotel_Pricing_Dashboard/Dashboard1)
 ## Project Objectives
 
 - Analyse historical hotel booking data.
@@ -42,28 +47,23 @@ It combines historical booking analysis with a rule-based dynamic pricing simula
 
 ```text
 Hotel-Revenue-Management/
-│
 ├── dashboard/
 │   └── Hotel_Pricing_Dashboard.twbx
-│
 ├── data/
 │   ├── raw/
 │   │   └── hotel_bookings.csv
-│   │
 │   └── processed/
 │       ├── hotel_bookings_cleaned.csv
 │       ├── hotel_bookings_cleaned.parquet
 │       ├── hotel_daily_pricing.csv
 │       ├── hotel_pricing_scenarios.csv
 │       └── hotel_scenario_summary.csv
-│
 ├── notebooks/
 │   ├── 01_data_understanding.ipynb
 │   ├── 02_data_cleaning_and_feature_engineering.ipynb
 │   ├── 03_exploratory_data_analysis.ipynb
 │   ├── 04_sql_business_analysis.ipynb
 │   └── 05_dynamic_pricing_engine.ipynb
-│
 ├── project structure.png
 ├── README.md
 ├── requirements.txt
@@ -273,6 +273,14 @@ Dataset download: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-de
 The dataset contains hotel booking records for a city hotel and a resort hotel in Portugal, covering July 2015 to August 2017. It includes both completed and cancelled bookings.
 
 The original research article is published under a Creative Commons Attribution licence (CC BY). Check the specific Kaggle copy's licence and attribution requirements before redistributing the downloaded files.
+
+## Licensing
+
+The project code is licensed under the MIT License.
+
+The Hotel Booking Demand dataset is attributed to Antonio, de Almeida, and Nunes (2019), and the Kaggle distribution declares a Creative Commons Attribution 4.0 International (CC BY 4.0) licence.
+
+Dataset users should retain the original attribution and refer to the source links above.
 
 ## Project Summary
 
